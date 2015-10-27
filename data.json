@@ -1,0 +1,20 @@
+{
+	"site_title": "T-Market",
+	"site_slogan": "Best t-shirts in town",
+	"products": [
+		{
+			"state": "Sale",
+			"thumb": "http://localhost/t-shirt/img/shirt-1.jpg",
+			"title": "Podvolk",
+			"price": "20000",
+			"info": "Bla bla"
+		},
+		{
+			"state": "",
+			"thumb": "http://localhost/t-shirt/img/shirt-2.jpg",
+			"title": "I'm a product",
+			"price": "30000",
+			"info": "Bla bla"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html ng-app="shop">	
+	<head>
+		<meta charset="utf-8">
+		<title>T-Shirt</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen.css" />
+	</head>
+
+	<body data-scroll ng-controller="ItemController">
+		<nav class="hidden-xs nav">
+			<div class="container">
+				<ul class="col-md-11">
+					<li><a data-scroll href="#shop">shop</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#where">where to buy</a></li>
+					<li><a href="#faq">faq</a></li>
+					<li><a href="#contact">contact us</a></li>
+				</ul>
+
+				<div class="col-md-1 pull-right">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i></a>
+					<ul class="dropdown-menu">
+						<!-- It's cart item -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<header class="col-md-12 shopnow">
+			<p class="col-md-12 logo">{{ shop.site_title }}</p>
+			<p class="col-md-12 slogan">{{ shop.site_slogan }}</p>
+			<span class="button">
+				<a data-scroll href="#shop">shop now</a>
+			</span>
+		</header>
+
+		<div ng-view></div>
+
+		<div class="col-md-12 footer" id="footer">
+			<div class="row col-md-12 center-block" >
+				<i class="fa fa-facebook-square"></i>
+				<i class="fa fa-twitter-square"></i>
+				<i class="fa fa-google-plus-square"></i>
+			</div>
+
+			<div class="row col-md-12">
+				<span class="text">2015 by T-Market. Proudly created with Batnyam</span>
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.4.7/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controller/ItemController.js"></script>
+	<script src="js/services/shop.js"></script>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+	<script src="js/shop-custom.js"></script>
+
+</html>

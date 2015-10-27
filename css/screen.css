@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+
+header {
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+	background-size: cover;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover, a:visited, a:focus, a:link {
+	text-decoration: none;
+	color: inherit;
+}
+.nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #e57373;
+	color: #FFF;
+}
+
+.nav a:hover {
+	color: #e53935;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0 20px 0 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+}
+
+.logo {
+	top: 120px;
+	text-align: center;
+	z-index: 1;
+	line-height: 40px;
+	font-size: 36px;
+	color: #FFF;
+}
+
+.slogan {
+	top: 120px;
+	text-align: center;
+	line-height: 20px;
+	z-index: 1;
+	text-transform: uppercase;
+	color: #f39c12;
+}
+
+.slider-item {
+	top: -80px;
+	float: left;
+}
+
+.slider-item img {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+#shop {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+}
+
+.shopnow .button {
+	width: 100%;
+	text-align: center;
+	float: left;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFF;
+	margin-top: 500px;
+}
+
+.shopnow .button a {
+	width: auto;
+	height: auto;
+	padding: 12px 20px;
+	background: #12ab3e;
+
+}
+article {
+	margin-bottom: 30px;
+}
+
+article p.quick {
+	display: none;
+	width: 100%;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: -30px;
+	background: rgba(200,200,200,0.3);
+}
+
+article img {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+article p.state {
+	width: auto;
+	background: #d32f2f;
+	float: left;
+	padding: 10px;
+}
+
+article p.title, p.price {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background: #e57373;
+	float: left;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer i {
+	font-size: 20px;
+	color: #FFF;
+}
+
+.footer i.fa-facebook-square:hover {
+	color: #3b5998;
+}
+.footer i.fa-twitter-square:hover {
+	color: #00aced;
+}
+.footer i.fa-google-plus-square:hover {
+	color: #dd4b39;
+}
+.footer .row {
+	width: 100%;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		top: 40%;
+	}
+	.slogan {
+		top: 40%;
+	}
+	.slider-item img {
+		display: none;
+	}
+}
