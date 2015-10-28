@@ -134,7 +134,28 @@ article p.title, p.price {
 	margin: 0;
 	padding: 0;
 }
-
+.modal-dialog {
+	width: 70%;
+}
+.modal-content {
+	border-radius: 0;
+}
+.modal-header {
+	border-bottom: 0;
+	padding: 15px;
+}
+.modal-body {
+	margin-top: -15px;
+}
+.carousel {
+	float: none !important;
+}
+.carousel-indicators li {
+	background: #000;
+}
+.carousel-indicators .active {
+	background: #cecece;
+}
 .footer {
 	background: #e57373;
 	float: left;
