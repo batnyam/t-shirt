@@ -48,6 +48,32 @@ nav ul li {
 	float: left;
 }
 
+ul.dropdown-menu li {
+	width: 250px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+ul.dropdown-menu li span {
+	float: left;
+}
+
+ul.dropdown-menu span {
+	float: left;
+	width: 60%;
+	padding: 0 5%;
+	color: #000;
+}
+
+ul.dropdown-menu li img {
+	float: left;
+	width: 30% !important;
+	height: auto;
+}
+
+
+
 .logo {
 	top: 120px;
 	text-align: center;

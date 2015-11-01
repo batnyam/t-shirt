@@ -3,7 +3,7 @@
 	"site_slogan": "Best t-shirts in town",
 	"products": [
 		{
-			"id": 1,
+			"id": 0,
 			"state": "Sale",
 			"thumb": "img/shirt-1.jpg",
 			"title": "Podvolk",
@@ -14,7 +14,7 @@
 			"quantity": 5
 		},
 		{
-			"id": 2,
+			"id": 1,
 			"state": "",
 			"thumb": "http://localhost/t-shirt/img/shirt-2.jpg",
 			"title": "I'm a product",
