@@ -6,16 +6,30 @@ app.controller('ItemController', ['$scope', 'shop', function($scope, shop){
 	$scope.selectedItems = [];
 	
 	function setCardItem(id){
+		console.log('bb');
 		currentProduct = $scope.shop.products[id];
 		item = "<li><img src='"+currentProduct.thumb+"' class='product-image'></span><span class='product-name'>"+currentProduct.title+"</span><span class='product-price'>"+currentProduct.price+"</span></li>";
-		card = $('.dropdown-menu').html();
+		card = $('.bag-product').html();
 		card += item;
-		$('.dropdown-menu').html(card);
-		$('.dropdown-toggle').attr("aria-expanded", true);
+		$('.bag-product').html(card);
 	}
 
 	$scope.addCard = function(id){
+		console.log(id);
 		$scope.selectedItems.push(id);
+		console.log($scope.selectedItems.indexOf(0));
 		setCardItem(id);
+		//bill();
+	}
+
+	function bill(){
+		console.log($scope.selectedItems[0]);
+		i = 0;
+		bill = 0;
+		while( i <= $scope.selectedItems.length){
+			bill += $scope.selectedItems[i].price*$scope.selectedItems[i].statePer;
+			i++;
+		}
+		console.log(bill);
 	}
 }]);

@@ -170,11 +170,14 @@ article p.title, p.price {
 	border-bottom: 0;
 	padding: 15px;
 }
+
+.modal-header .close {
+	position: relative;
+	z-index: 99;
+}
 .modal-body {
 	margin-top: -15px;
-}
-.carousel {
-	float: none !important;
+	background-color: #FFF
 }
 .carousel-indicators li {
 	background: #000;

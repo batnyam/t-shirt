@@ -24,6 +24,10 @@ app.config(function ($routeProvider){
 	.when('/contact', {
 		//controller: 'ContactController',
 		templateUrl: 'js/views/contact.html'
+	})
+	.when('/cart', {
+		controller: 'CartController',
+		templateUrl: 'js/views/cart.html'
 	});
 });
 
